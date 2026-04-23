@@ -50,7 +50,10 @@ macOS：
 1. 如果你的 Mac 是 Apple Silicon，下载 `sbti-cards-*-macos-arm64.zip`
 2. 如果你的 Mac 是 Intel，下载 `sbti-cards-*-macos-x86_64.zip`
 3. 解压后打开 `.app`
-4. 如果是未签名构建，首次启动时请在 Finder 中对应用执行一次“右键打开”
+4. 如果系统提示“Apple 无法验证”，先点“完成”
+5. 打开 `系统设置 -> 隐私与安全性`，在安全区域对 `SBTI cards` 点击“仍要打开”
+6. 系统会再弹出一次确认窗口，在弹窗里继续点击“仍要打开”即可
+7. 如果仍然打不开，可以在 Finder 中对 `.app` 右键后选择“打开”
 
 ## 开发说明
 
