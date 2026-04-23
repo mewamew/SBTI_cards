@@ -34,18 +34,23 @@
 
 ## 下载运行
 
-玩家使用时不需要安装 Godot，直接从 GitHub 页面下载对应平台的打包附件即可。
+玩家使用时不需要安装 Godot，直接从 GitHub Releases 页面下载对应平台的打包附件即可：
+
+[GitHub Releases 下载页](https://github.com/mewamew/SBTI_cards/releases)
+
+下载时优先选择最新版本的 Release。
 
 Windows：
 
-1. 从 GitHub 附件下载 `Windows` 版 `.exe` 文件。
+1. 下载 `sbti-cards-*-windows-x64.exe`
 2. 双击 `.exe` 启动游戏。
 
 macOS：
 
-1. 下载 `macOS` 版本压缩包。
-2. 解压后打开 `.app`。
-3. 如果是未签名构建，首次启动时请在 Finder 中对应用执行一次“右键打开”。
+1. 如果你的 Mac 是 Apple Silicon，下载 `sbti-cards-*-macos-arm64.zip`
+2. 如果你的 Mac 是 Intel，下载 `sbti-cards-*-macos-x86_64.zip`
+3. 解压后打开 `.app`
+4. 如果是未签名构建，首次启动时请在 Finder 中对应用执行一次“右键打开”
 
 ## 开发说明
 
