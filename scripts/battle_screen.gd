@@ -4,6 +4,8 @@ signal battle_finished
 signal exit_to_select_requested
 signal modal_choice_resolved(value)
 
+const GameState = preload("res://scripts/game_state.gd")
+const DeckManager = preload("res://scripts/deck_manager.gd")
 const ShaderEffects = preload("res://scripts/shader_effects.gd")
 const GameBalance = preload("res://scripts/game_balance.gd")
 const CharactersData = preload("res://data/characters.gd")
@@ -15,6 +17,7 @@ const BattleScreenText = preload("res://scripts/battle_screen_text.gd")
 const GameAudio = preload("res://scripts/game_audio.gd")
 const TheaterModal = preload("res://scripts/ui/theater_modal.gd")
 const AudioToggleBar = preload("res://scripts/ui/audio_toggle_bar.gd")
+const UIFactory = preload("res://scripts/ui_factory.gd")
 const AmbientDustScene = preload("res://scenes/fx/ambient_dust.tscn")
 const ENTRANCE_RITUALS_PATH := "res://data/entrance_rituals.json"
 const BATTLE_BACKGROUND_PATH := "res://assets/backgrounds/screens/battle.png"

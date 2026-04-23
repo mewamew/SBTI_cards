@@ -2,11 +2,13 @@ extends Control
 
 signal hero_confirmed(character)
 
+const RibbonBanner = preload("res://scripts/ui/ribbon_banner.gd")
 const ShaderEffects = preload("res://scripts/shader_effects.gd")
 const GameBalance = preload("res://scripts/game_balance.gd")
 const GameAudio = preload("res://scripts/game_audio.gd")
 const ButtonFeedback = preload("res://scripts/ui/button_feedback.gd")
 const AudioToggleBar = preload("res://scripts/ui/audio_toggle_bar.gd")
+const UIFactory = preload("res://scripts/ui_factory.gd")
 
 const THUMBNAIL_BTN_SIZE := Vector2(96, 112)
 const CAROUSEL_CONTAINER_HEIGHT := 150.0

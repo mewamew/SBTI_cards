@@ -2,8 +2,10 @@ extends Control
 
 signal start_requested
 
+const RibbonBanner := preload("res://scripts/ui/ribbon_banner.gd")
 const ButtonFeedback := preload("res://scripts/ui/button_feedback.gd")
 const AudioToggleBar := preload("res://scripts/ui/audio_toggle_bar.gd")
+const UIFactory := preload("res://scripts/ui_factory.gd")
 const TITLE_TEXT := "SBTI人物卡牌游戏"
 const TITLE_BACKGROUND_PATH := "res://assets/backgrounds/screens/title.png"
 

@@ -1,5 +1,7 @@
 extends Control
 
+const GameState = preload("res://scripts/game_state.gd")
+const Characters = preload("res://data/characters.gd")
 const TitleScreen := preload("res://scripts/title_screen.gd")
 const SelectScreen := preload("res://scripts/select_screen.gd")
 const BattleScreen := preload("res://scripts/battle_screen.gd")

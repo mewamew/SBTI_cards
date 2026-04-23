@@ -3,10 +3,12 @@ extends Control
 signal replay_requested
 signal theater_requested
 
+const GameState = preload("res://scripts/game_state.gd")
 const RibbonBanner = preload("res://scripts/ui/ribbon_banner.gd")
 const TheaterModal = preload("res://scripts/ui/theater_modal.gd")
 const GameAudio = preload("res://scripts/game_audio.gd")
 const ButtonFeedback = preload("res://scripts/ui/button_feedback.gd")
+const UIFactory = preload("res://scripts/ui_factory.gd")
 
 const ENTRANCE_RITUALS_PATH := "res://data/entrance_rituals.json"
 const RESULT_VICTORY_BACKGROUND_PATH := "res://assets/backgrounds/screens/title.png"

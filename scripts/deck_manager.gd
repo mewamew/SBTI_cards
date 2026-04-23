@@ -1,6 +1,8 @@
 extends RefCounted
 class_name DeckManager
 
+const GameState = preload("res://scripts/game_state.gd")
+const Characters = preload("res://data/characters.gd")
 const GameBalance = preload("res://scripts/game_balance.gd")
 
 
