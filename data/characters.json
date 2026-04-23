@@ -1,0 +1,552 @@
+[
+  {
+    "code": "CTRL",
+    "name": "拿捏者",
+    "quote": "怎么样，被我拿捏了吧？",
+    "hp": 85,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/CTRL.png",
+    "skills": {
+      "hero": {
+        "name": "读心",
+        "description": "每局可窥视3张未翻牌的命运"
+      },
+      "ally": {
+        "name": "操盘",
+        "description": "入队时，你指定下一张你翻的牌的命运"
+      },
+      "enemy": {
+        "name": "收编",
+        "description": "随机移除你阵营中一个伙伴"
+      }
+    }
+  },
+  {
+    "code": "ATM-er",
+    "name": "送钱者",
+    "quote": "我看起来真有那么有钱吗？",
+    "hp": 90,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/ATM-er.png",
+    "skills": {
+      "hero": {
+        "name": "回馈",
+        "description": "每当伙伴离队时回复10HP"
+      },
+      "ally": {
+        "name": "续费",
+        "description": "替你挡伤后不离队，可再抵挡一次（共2次后离队）"
+      },
+      "enemy": {
+        "name": "连环债",
+        "description": "扣15HP，且下一张牌强制成为敌人"
+      }
+    }
+  },
+  {
+    "code": "Dior-s",
+    "name": "玩世不恭的智者",
+    "quote": "等着我逆袭吧",
+    "hp": 90,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/Dior-s.png",
+    "skills": {
+      "hero": {
+        "name": "触底反弹",
+        "description": "连续翻到2个敌人后，第3张必定成为伙伴"
+      },
+      "ally": {
+        "name": "编外",
+        "description": "不占槽位，作为临时额外伙伴存在2回合"
+      },
+      "enemy": {
+        "name": "代价",
+        "description": "扣20HP，但翻完后奖励你一次窥视机会"
+      }
+    }
+  },
+  {
+    "code": "BOSS",
+    "name": "领导型",
+    "quote": "方向盘给我，我来开",
+    "hp": 80,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/BOSS.png",
+    "skills": {
+      "hero": {
+        "name": "扩编",
+        "description": "伙伴槽位+1"
+      },
+      "ally": {
+        "name": "铁令",
+        "description": "在阵营中时，其他伙伴挡伤后50%概率不离队"
+      },
+      "enemy": {
+        "name": "霸占",
+        "description": "随机封锁你一个伙伴槽位2回合"
+      }
+    }
+  },
+  {
+    "code": "THAN-K",
+    "name": "感谢者",
+    "quote": "感谢天，感谢地",
+    "hp": 95,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/THAN-K.png",
+    "skills": {
+      "hero": {
+        "name": "感恩",
+        "description": "每翻到一张伙伴回复5HP"
+      },
+      "ally": {
+        "name": "谢礼",
+        "description": "入队时回复20HP"
+      },
+      "enemy": {
+        "name": "恩债",
+        "description": "不造成伤害，但你阵营中最新入队的伙伴被移除"
+      }
+    }
+  },
+  {
+    "code": "OH-NO",
+    "name": "杞人忧天者",
+    "quote": "天呐，我怎么测到这个？！",
+    "hp": 80,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/OH-NO.png",
+    "skills": {
+      "hero": {
+        "name": "回避",
+        "description": "每局可跳过3张不想翻的牌，直接移出牌池"
+      },
+      "ally": {
+        "name": "预警",
+        "description": "入队时揭示牌池中剩余敌人的数量"
+      },
+      "enemy": {
+        "name": "恐慌",
+        "description": "接下来2张牌的伙伴概率各-10%"
+      }
+    }
+  },
+  {
+    "code": "GOGO",
+    "name": "急速前行者",
+    "quote": "冲冲冲，走起",
+    "hp": 90,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/GOGO.png",
+    "skills": {
+      "hero": {
+        "name": "加速",
+        "description": "每回合可选择连翻两张牌"
+      },
+      "ally": {
+        "name": "带飞",
+        "description": "入队时立刻额外翻一张牌"
+      },
+      "enemy": {
+        "name": "催命",
+        "description": "强制你下回合连翻两张牌"
+      }
+    }
+  },
+  {
+    "code": "SEXY",
+    "name": "万人迷",
+    "quote": "你生来就是不可抗拒的",
+    "hp": 75,
+    "charm": 0.6,
+    "image_path": "res://assets/cards/full/SEXY.png",
+    "skills": {
+      "hero": {
+        "name": "天赋",
+        "description": "基础伙伴概率提升至60%"
+      },
+      "ally": {
+        "name": "光环",
+        "description": "在阵营中时，每张后续牌伙伴概率+5%"
+      },
+      "enemy": {
+        "name": "魅惑",
+        "description": "随机移除你阵营中一个伙伴"
+      }
+    }
+  },
+  {
+    "code": "LOVE-R",
+    "name": "恋爱脑",
+    "quote": "这里有太多爱了……",
+    "hp": 90,
+    "charm": 0.55,
+    "image_path": "res://assets/cards/full/LOVE-R.png",
+    "skills": {
+      "hero": {
+        "name": "真爱锁",
+        "description": "可锁定一个伙伴为\"真爱\"——不会被替换或消耗"
+      },
+      "ally": {
+        "name": "至死不渝",
+        "description": "入队后自动锁定，不可被替换、消耗或驱散"
+      },
+      "enemy": {
+        "name": "情伤",
+        "description": "扣25HP"
+      }
+    }
+  },
+  {
+    "code": "MUM",
+    "name": "妈妈型",
+    "quote": "我可以叫你妈妈吗……？",
+    "hp": 85,
+    "charm": 0.55,
+    "image_path": "res://assets/cards/full/MUM.png",
+    "skills": {
+      "hero": {
+        "name": "关怀",
+        "description": "每回合开始时自动回复3HP"
+      },
+      "ally": {
+        "name": "暖汤",
+        "description": "在阵营中时每回合为你回复5HP"
+      },
+      "enemy": {
+        "name": "内疚",
+        "description": "不直接伤害你，但随机消耗你一个伙伴"
+      }
+    }
+  },
+  {
+    "code": "FAKE",
+    "name": "面具人",
+    "quote": "已经没有人类了",
+    "hp": 85,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/FAKE.png",
+    "skills": {
+      "hero": {
+        "name": "变脸",
+        "description": "翻牌后可反转命运（伙伴↔敌人），每局限2次"
+      },
+      "ally": {
+        "name": "模仿",
+        "description": "入队时选择阵营中一个伙伴，复制其伙伴技能"
+      },
+      "enemy": {
+        "name": "潜伏",
+        "description": "伪装成伙伴入队占据槽位，2回合后暴露——扣15HP并离队"
+      }
+    }
+  },
+  {
+    "code": "OJBK",
+    "name": "摆烂哥",
+    "quote": "我说随便就是随便",
+    "hp": 100,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/OJBK.png",
+    "skills": {
+      "hero": {
+        "name": "无所谓",
+        "description": "受到伤害时30%概率直接免疫"
+      },
+      "ally": {
+        "name": "摸鱼",
+        "description": "占着槽位但没有任何效果"
+      },
+      "enemy": {
+        "name": "已读不回",
+        "description": "什么也不做就走了"
+      }
+    }
+  },
+  {
+    "code": "MALO",
+    "name": "吗喽",
+    "quote": "人生就是副本，我只是里面的小猴子",
+    "hp": 105,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/MALO.png",
+    "skills": {
+      "hero": {
+        "name": "猴戏",
+        "description": "每回合翻牌前等概率触发：回复10HP / 扣10HP / 无事发生"
+      },
+      "ally": {
+        "name": "开盲盒",
+        "description": "入队时等概率触发：回复15HP / 扣5HP / 窥视一张牌"
+      },
+      "enemy": {
+        "name": "乱拳",
+        "description": "造成0~30HP的随机伤害"
+      }
+    }
+  },
+  {
+    "code": "JOKE-R",
+    "name": "小丑",
+    "quote": "原来我们都是小丑",
+    "hp": 100,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/JOKE-R.png",
+    "skills": {
+      "hero": {
+        "name": "苦中作乐",
+        "description": "HP每低于最大值10%，伙伴概率+2%"
+      },
+      "ally": {
+        "name": "含泪治愈",
+        "description": "若你当前HP低于30%，入队时回复30HP"
+      },
+      "enemy": {
+        "name": "嘲讽",
+        "description": "下一个遇到的敌人伤害翻倍（×2）"
+      }
+    }
+  },
+  {
+    "code": "WOC!",
+    "name": "惊讶者",
+    "quote": "卧槽，我怎么测到这个？",
+    "hp": 90,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/WOC!.png",
+    "skills": {
+      "hero": {
+        "name": "重来",
+        "description": "翻牌后可弃掉本张重翻（每局限2次）"
+      },
+      "ally": {
+        "name": "洗牌",
+        "description": "入队时重新随机分配牌池中所有剩余牌的命运"
+      },
+      "enemy": {
+        "name": "反转",
+        "description": "扣10HP后50%概率反转为伙伴入队"
+      }
+    }
+  },
+  {
+    "code": "THIN-K",
+    "name": "思考者",
+    "quote": "深度思考中：100秒……",
+    "hp": 70,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/THIN-K.png",
+    "skills": {
+      "hero": {
+        "name": "三思",
+        "description": "翻牌前可先查看该牌命运，若不想翻可放回牌池并跳过本回合（每局限3次）"
+      },
+      "ally": {
+        "name": "推演",
+        "description": "入队时揭示牌池中一张预分配为敌人的牌"
+      },
+      "enemy": {
+        "name": "过度思考",
+        "description": "让你陷入沉思，跳过下一回合"
+      }
+    }
+  },
+  {
+    "code": "SHIT",
+    "name": "愤世者",
+    "quote": "这世界就是一坨屎",
+    "hp": 100,
+    "charm": 0.45,
+    "image_path": "res://assets/cards/full/SHIT.png",
+    "skills": {
+      "hero": {
+        "name": "以牙还牙",
+        "description": "受到敌人伤害时，记录该伤害的30%，叠加到下一个敌人所受伤害上"
+      },
+      "ally": {
+        "name": "刀子嘴",
+        "description": "若上一张翻到的是敌人，入队时回复该敌人造成的等额HP"
+      },
+      "enemy": {
+        "name": "暴怒",
+        "description": "扣20HP，但之后伙伴概率+10%（持续1张牌）"
+      }
+    }
+  },
+  {
+    "code": "ZZZZ",
+    "name": "睡神",
+    "quote": "我没死，我只是在睡觉",
+    "hp": 85,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/ZZZZ.png",
+    "skills": {
+      "hero": {
+        "name": "补觉",
+        "description": "可跳过翻牌改为回复15HP（每局限3次）"
+      },
+      "ally": {
+        "name": "赖床",
+        "description": "入队后休眠2回合无法用于挡伤，醒来后可抵挡2次敌人才离队"
+      },
+      "enemy": {
+        "name": "催眠",
+        "description": "跳过下一回合（但回复5HP）"
+      }
+    }
+  },
+  {
+    "code": "POOR",
+    "name": "专家",
+    "quote": "我很穷，但我很专注",
+    "hp": 110,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/POOR.png",
+    "skills": {
+      "hero": {
+        "name": "精通",
+        "description": "伙伴槽位-1（仅2个），但每个伙伴可抵挡3次敌人才离队"
+      },
+      "ally": {
+        "name": "专注",
+        "description": "在阵营中时，其他伙伴抵挡敌人后50%概率不离队"
+      },
+      "enemy": {
+        "name": "匮乏",
+        "description": "随机封印你一个伙伴槽位2回合"
+      }
+    }
+  },
+  {
+    "code": "MONK",
+    "name": "修行者",
+    "quote": "没有世俗的欲望",
+    "hp": 105,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/MONK.png",
+    "skills": {
+      "hero": {
+        "name": "无欲则刚",
+        "description": "免疫所有持续性效果，无论正负"
+      },
+      "ally": {
+        "name": "净化",
+        "description": "入队时移除你身上所有持续性负面效果"
+      },
+      "enemy": {
+        "name": "皆空",
+        "description": "移除你身上所有持续性正面效果；若无则伙伴概率-10%持续2张牌"
+      }
+    }
+  },
+  {
+    "code": "IMSB",
+    "name": "自我攻击者",
+    "quote": "我真的那么蠢吗？",
+    "hp": 100,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/IMSB.png",
+    "skills": {
+      "hero": {
+        "name": "自罚",
+        "description": "翻到敌人时额外扣5HP，翻到伙伴时额外回复5HP"
+      },
+      "ally": {
+        "name": "替罪",
+        "description": "入队后替你抵挡所有敌人攻击，每次抵挡时你扣5HP，抵挡3次后离队"
+      },
+      "enemy": {
+        "name": "否定",
+        "description": "扣15HP，并让你下一个翻到的伙伴无法入队"
+      }
+    }
+  },
+  {
+    "code": "SOLO",
+    "name": "孤独者",
+    "quote": "我怎么就成了孤独者？",
+    "hp": 95,
+    "charm": 0.45,
+    "image_path": "res://assets/cards/full/SOLO.png",
+    "skills": {
+      "hero": {
+        "name": "独行",
+        "description": "阵营每空一个槽位，伙伴概率+5%"
+      },
+      "ally": {
+        "name": "孤军",
+        "description": "若是阵营中唯一的伙伴，可抵挡2次敌人才离队"
+      },
+      "enemy": {
+        "name": "孤立",
+        "description": "让你下一回合无法使用伙伴挡伤"
+      }
+    }
+  },
+  {
+    "code": "FUCK",
+    "name": "野性者",
+    "quote": "这什么鬼人格？",
+    "hp": 90,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/FUCK.png",
+    "skills": {
+      "hero": {
+        "name": "硬刚",
+        "description": "选择硬扛敌人时伤害减半"
+      },
+      "ally": {
+        "name": "开路",
+        "description": "入队后自动击退下一个敌人，无需消耗任何资源"
+      },
+      "enemy": {
+        "name": "蛮横",
+        "description": "扣25HP，且无法用伙伴抵挡，只能硬扛"
+      }
+    }
+  },
+  {
+    "code": "DEAD",
+    "name": "死者",
+    "quote": "我……还活着吗？",
+    "hp": 75,
+    "charm": 0.45,
+    "image_path": "res://assets/cards/full/DEAD.png",
+    "skills": {
+      "hero": {
+        "name": "不死",
+        "description": "HP降至0时以1HP存活一次（每局限1次）"
+      },
+      "ally": {
+        "name": "回光",
+        "description": "无法用于抵挡敌人，被替换或移除时回复20HP"
+      },
+      "enemy": {
+        "name": "死气",
+        "description": "不造成直接伤害，但HP上限永久-10"
+      }
+    }
+  },
+  {
+    "code": "IMFW",
+    "name": "脆弱者",
+    "quote": "我真的……那么没用吗？",
+    "hp": 95,
+    "charm": 0.5,
+    "image_path": "res://assets/cards/full/IMFW.png",
+    "skills": {
+      "hero": {
+        "name": "碎心",
+        "description": "每次受伤后，下一次治疗效果翻倍"
+      },
+      "ally": {
+        "name": "蜕变",
+        "description": "入队时可抵挡1次敌人；每在阵营中经过1回合+1次，上限3次"
+      },
+      "enemy": {
+        "name": "脆弱",
+        "description": "扣5HP，且之后你每次受伤额外+5HP（持续2回合）"
+      }
+    }
+  }
+]

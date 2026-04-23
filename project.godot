@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="SBTI cards"
+config/features=PackedStringArray("4.6")
+run/main_scene="res://scenes/app.tscn"
+config/icon="res://assets/app_icons/game_icon_macos.png"
+config/macos_native_icon="res://assets/app_icons/game_icon_macos.icns"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/maximize_disabled=false
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

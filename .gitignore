@@ -1,0 +1,15 @@
+# Godot caches and import metadata
+.godot/
+
+# Local export/build output
+build/
+
+# Local-only directories
+tools/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
