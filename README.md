@@ -58,13 +58,23 @@ macOS：
 
 - Godot `4.6.2.stable`
 
+首次克隆项目或在全新环境中打开仓库时，需要先完成一次资源导入。可任选一种方式：
+
+```bash
+godot --headless --path . --import
+```
+
+或直接在 Godot 编辑器中打开 [project.godot](./project.godot)，等待首次导入完成。
+
+首次导入会生成本地 `.godot/` 缓存，时间可能较长。导入完成后再运行项目：
+
 本地运行项目：
 
 ```bash
 godot --path .
 ```
 
-也可以直接在 Godot 编辑器中打开 [project.godot](./project.godot)。
+资源导入完成后，也可以直接在 Godot 编辑器中运行 [project.godot](./project.godot)。
 
 当前项目配置：
 
